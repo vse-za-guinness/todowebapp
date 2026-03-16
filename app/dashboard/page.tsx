@@ -586,7 +586,6 @@ export default function DashboardPage() {
             </div>
           </div>
 
-          {/* Mobile bottom nav */}
           <BottomNav onMenuOpen={() => setSidebarOpen(true)} />
         </div>
       </TooltipProvider>
