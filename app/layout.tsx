@@ -34,7 +34,7 @@ export default function RootLayout({
               {process.env.NEXT_PUBLIC_ENV_LABEL}
             </div>
            )}
-        </body>
+        </body> 
     </html>
   );
 }
