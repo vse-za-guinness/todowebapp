@@ -414,8 +414,10 @@ export default function DashboardPage() {
                   <h1 className="text-[18px] font-black text-[#2D2A26] leading-tight">
                     {greeting()} 👋
                   </h1>
-                  <p className="text-[11px] text-[#A89F94] hidden sm:block">
+                    <p className="text-[11px] text-   [#A89F94] hidden sm:block">
                     {new Date().toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" })}
+                    {" · "}
+                    <span className="font-semibold text-[#7A7066]">{items.length} task{items.length !== 1 ? "s" : ""} total</span>
                   </p>
                 </div>
               </div>
