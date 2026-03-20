@@ -9,7 +9,7 @@ const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Next.js Tutorial App",
+  title: "Banu Whatever This Is",
   description: "Full-stack deployment tutorial",
 };
 
